@@ -1,3 +1,4 @@
+/* File for manipulating the style of the HTML file. */
 body {
     background-color: lightblue;
 }
@@ -5,9 +6,80 @@ body {
 h1 {
     color: navy;
     text-align: center;
+    text-decoration: underline;
 }
 
 p {
     color: blueviolet;
-    text-align: left
+    text-align: left;
+    border-style: dotted;
 }
+
+/*
+ HEADER
+ */
+header {
+    overflow: hidden;
+}
+
+#top-header {
+    text-align: center;
+    height: 60px;
+}
+
+/*
+ NAV MENU
+ */
+#menu {
+    float: right;
+    width: 70%;
+    height: 100%
+    margin: none;
+}
+
+#menu ul {
+    text-align: center;
+    float: right;
+    margin: none;
+    background: #0074D9;
+}
+
+#menu li {
+    display: inline-block;
+    padding: none;
+    margin: none;
+}
+
+#menu li a, #menu li span {
+    display: inline-block;
+    padding: 0em 1.5em;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+
+#menu li a {
+    color: #FFF;
+}
+
+#menu li:hover a, #menu li span {
+    background: #FFF;
+    color: #0074D9;
+    border-left: 1px solid #0074D9;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
